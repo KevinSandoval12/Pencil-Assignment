@@ -1,0 +1,21 @@
+table {
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(136, 155, 184);
+}
+
+table thead {
+  background-color: rgb(22, 25, 57);
+  color: white;
+}
+
+tbody {
+  /* display: flex;
+  flex-direction: column; */
+  background-color: rgb(204, 207, 213);
+  border: solid rgb(49, 49, 49) 1px;
+  /* justify-content: space-evenly; */
+}

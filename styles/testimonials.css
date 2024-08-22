@@ -1,0 +1,106 @@
+aside:nth-child(1) p {
+  grid-area: aside1;
+}
+
+aside:nth-child(2) p {
+  grid-area: aside2;
+}
+
+aside:nth-child(3) p {
+  grid-area: aside3;
+}
+
+aside:nth-child(4) p {
+  grid-area: aside4;
+}
+
+aside:nth-child(5) p {
+  grid-area: aside5;
+}
+
+aside:nth-child(6) p {
+  grid-area: aside6;
+}
+
+aside img:nth-child(1) {
+  grid-area: img1;
+}
+
+aside img:nth-child(2) {
+  grid-area: img2;
+}
+
+aside img:nth-child(3) {
+  grid-area: img3;
+}
+
+aside img:nth-child(4) {
+  grid-area: img4;
+}
+
+aside img:nth-child(5) {
+  grid-area: img5;
+}
+
+aside img:nth-child(6) {
+  grid-area: img6;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img1 aside1"
+    "img2 aside2"
+    "img3 aside3"
+    "img4 aside4"
+    "img5 aside5 "
+    "img6 aside6";
+}
+
+/* aside img,
+aside img ~ p {
+  display: flex;
+  flex-direction: row;
+} */
+
+/* aside p {
+  display: flex;
+} */
+
+/* aside:nth-cild(ev men) {
+  grid-area: right;
+}
+
+aside:nth-child(odd) {
+  grid-area: left;
+} */
+
+aside {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+/*
+
+aside img {
+  display: flex;
+  margin: 25px;
+}
+
+aside p {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+} */
